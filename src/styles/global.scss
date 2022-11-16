@@ -1,0 +1,19 @@
+@import './resets';
+@import './fonts';
+@import 'mixins/_general';
+
+// Styles Imports
+@import './components/TopBarComponent/TopBarComponent.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    user-select: none;
+}
